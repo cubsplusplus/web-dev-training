@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous' defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -17,17 +15,36 @@
                 <div id="dot2" class="browser-dot"></div>
                 <div id="dot3" class="browser-dot"></div>
             </div>
-            <div>
-                <i class='fas fa-comment-dots' style='font-size:24px'></i>
-                <p class="temp">middle</p>
+            <div .class="icons">
+                <ul>
+                    <li><a href="/"><i class="fa-brands fa-rocketchat"></i></a></li>
+                </ul>
                 <p class="temp">middle</p>
             </div>
             <p id="item3">end</p>
         </div>
         <div class="main">
-            <div class="messages"></div>
-            <div class="chat"></div>
+            <div id="contacts-wrapper">
+                <div class="contacts">
+                    <header class="title-bar-wrapper" >
+                        <div class="title-bar">
+                            <h2>Schaaa</h2>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </header>
+                    <div class="stories-wrapper">
+                        <div class="stories"></div>
+                    </div>
+                    <div class="people-wrapper" style="background-color: green">
+                    <div class="people"></div></div>
+                </div>
+            </div>
+            <div id="chat-wrapper">
+                <div class="chat"></div>
+            </div>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/12aa515f0e.js" crossorigin="anonymous"></script>
 </body>
 </html>
