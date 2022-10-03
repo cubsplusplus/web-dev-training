@@ -86,7 +86,7 @@ li {
 
 /* START of main */
 .main {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     border-radius: 30px 30px 30px 0;
     display: grid;
     grid-template-columns: 40% 1fr;
@@ -101,13 +101,13 @@ li {
 } */
 
 #contacts-wrapper {
-    border: 1px dashed;
+    /* border: 1px dashed; */
     max-height: 100%;
     margin: 0;
     width: 100%;
 }
 .contacts {
-    border: 1px dashed;
+    /* border: 1px dashed; */
     border-radius: 30px 0 0 0;
     display: grid;
     grid-template-rows: 10% 13% 1fr;
@@ -126,13 +126,31 @@ li {
     background-color: #ACB6E5;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
     width: 100%;
     border-radius: 30px 0 0 0;
 }
 
+#branding {
+    margin-left: 25px;
+}
+#utilities {
+    margin-right: 25px;
+}
+
+#utilities > i {
+    margin-left: 20px;
+}
+
+button {
+    border: hidden;
+    background-color: inherit;
+}
+
 .stories {
-    background-color: bisque;
+    background-color: inherit;
     height: 100%;
     width: 100%;
 }
@@ -144,14 +162,14 @@ li {
 }
 
 #chat-wrapper {
-    border: 1px dashed;
+    /* border: 1px dashed; */
     margin: 0;
     height: 100%;
     width: 100%;
 }
 
 .chat {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     border-radius: 0 30px 30px 0;
     height: 100%;
     width: 100%;
