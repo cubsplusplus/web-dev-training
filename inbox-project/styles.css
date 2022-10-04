@@ -10,10 +10,10 @@ body {
 
 .grid-container {
     background-color: aliceblue;
-    border-radius: 0 30px 30px 30px;
+    border-radius: 0 15px 30px 15px;
     /* border: 1px dashed; */
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 6.5% 1fr;
     height: 700px;
     margin: auto;
     width: 1200px;
@@ -69,12 +69,12 @@ body {
 .icons {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin-top: 55px;
 }
 
-li {
-    list-style-type: none;
-    margin: left;
-}
+
 
 /* END sidebar style */
 
@@ -93,24 +93,19 @@ li {
     height: 100%;
 }
 
-/* .temp {
-    border: 1px dashed;
-    padding: 5px;
-    max-width: 100%;
-    
-} */
 
+/* START of #contacts-wrapper */
 #contacts-wrapper {
     /* border: 1px dashed; */
+    border-right: 1px solid rgb(211, 211, 211);
     max-height: 100%;
     margin: 0;
     width: 100%;
 }
 .contacts {
-    /* border: 1px dashed; */
     border-radius: 30px 0 0 0;
     display: grid;
-    grid-template-rows: 10% 13% 1fr;
+    grid-template-rows: 10% 18% 1fr;
     height: 100%;
     width: 100%;
 }
@@ -131,9 +126,12 @@ li {
     height: 100%;
     width: 100%;
     border-radius: 30px 0 0 0;
+    
 }
 
 #branding {
+    color: aliceblue;
+    font-family: cursive;
     margin-left: 25px;
 }
 #utilities {
@@ -161,11 +159,17 @@ button {
     width: 100%;
 }
 
+/* END of #contacts-wrapper */
+
+
+/* START of #chat-wrapper */
 #chat-wrapper {
     /* border: 1px dashed; */
     margin: 0;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-rows: 10% 1fr 10%;
 }
 
 .chat {
@@ -174,5 +178,11 @@ button {
     height: 100%;
     width: 100%;
 }
+
+.text-wrapper {
+    border-top: 1px solid rgb(119, 117, 117);
+}
+
+/* END of #chat-wrapper */
 
 /* END of main */
