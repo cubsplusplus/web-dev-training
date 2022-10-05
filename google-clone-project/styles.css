@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 10% 1fr 5%;
+    height: 100vh;
+}
+
+/* START of title-bar-wrapper */
+
+
+
+/* END of title-bar-wrapper */
+
+
+/* START of second-column */
+.second-column{
+    margin: auto;
+    margin-top: 200px;
+}
+
+/* END of second-column */
+
+
+/* START of third-column */
+.third-column {
+    background-color: rgb(218, 214, 214);
+    height: 100%;
+    width: 100%;
+}
+
+/* START of third-column */
