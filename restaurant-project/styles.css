@@ -1,0 +1,81 @@
+:root {
+    --body-color: rgb(255, 251, 246);
+}
+
+*, ::before, ::after {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+.container {
+    border: 1px red solid;
+    
+    display: grid;
+    grid-template-rows: 15% 1fr 1fr;
+
+    margin: auto;
+
+    height: 80vh;
+    width: 80vw;
+
+
+}
+
+/* START of navbar */
+
+
+/* navbar-wrapper */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+span {
+    color: red;
+}
+
+/* links-wrapper */
+ul > li {
+    display: inline-block;
+}
+
+#home {
+    color: red;
+}
+
+/* .login */
+
+.login-btn {
+    
+    background-color: red;
+    border: hidden;
+    border-radius: 25px;
+    color: white;
+
+    height: 40px;
+    width: 100px;
+
+}
+
+/* END sign in */
+
+
+/* END of navbar */
+
+/* content-column */
+
+.content-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* left-column */
+
+.left-column {
+    border: 1px red solid;
+}
